@@ -10,7 +10,7 @@ web3 = Web3(Web3.HTTPProvider('https://base-sepolia-rpc.publicnode.com'))
 assert web3.is_connected(), "Gagal konek ke jaringan Base Sepolia!"
 chainId = web3.eth.chain_id
 
-PRIVATE_KEYS_FILE = 'utapapkkey.txt'
+PRIVATE_KEYS_FILE = 'pkutama.txt'
 TARGET_ADDRESSES_FILE = 'addressevm.txt'
 
 while True:
